@@ -1,0 +1,53 @@
+.main {
+  position: relative;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner .image img {
+  min-height: 300px;
+}
+
+.banner-category .image img {
+  min-height: 200px;
+}
+
+.banner .description {
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.banner-category {
+  position: relative;
+}
+
+.banner-category .description {
+  top: 0;
+  position: absolute;
+}
+
+.description .columns {
+  height: 100%;
+}
+
+.product-card {
+  height: 100%;
+}
+
+.product-card .card-image .image img {
+  border-radius: 0;
+}
+
+.product-card .card-image .image img.is-rounded {
+  border-radius: 50%;
+}
+
+.alert-message {
+  position: absolute !important;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}

@@ -1,0 +1,22 @@
+.cemaco-header {
+  background: var(--blue);
+}
+
+.brands-header img {
+  max-height: 25px;
+  width: auto;
+}
+
+.brands-header .column {
+  border-radius: 4px ;
+}
+
+.brands-header .logo-cemaco {
+  border-radius: 4px 4px 0 0;
+}
+
+@media (max-width: 768px) {
+  .order-end {
+    order: 3;
+  }
+}
