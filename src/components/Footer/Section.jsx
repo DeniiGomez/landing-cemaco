@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const Section = ({ title, list, handleToggle }) => (
-  <div className="column is-12-mobile is-12-tablet footer-list">
+  <div className="column is-12-mobile is-12-tablet is-2-desktop footer-list">
     <div className="dropdown-footer is-block">
       <div className="is-size-6 has-text-white mb-1 is-flex is-justify-content-space-between is-align-items-center">
         <p>{title}</p>

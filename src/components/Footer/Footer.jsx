@@ -119,13 +119,12 @@ export const Footer = () => {
     </div>
     </div>
     <div className="has-background-white">
-    <div className="container px-3">
-      <div className="columns is-mobile my-0">
-        <div className="column is-2-tablet is-half-mobile has-text-centered-mobile is-size-7">Politica y privacidad</div>
-        <div className="column is-2-talbet is-half-mobile has-text-centered-mobile is-size-7">Terminos y condiciones</div>
+      <div className="container px-3">
+        <div className="columns is-mobile my-0">
+          <div className="column is-2-tablet is-half-mobile has-text-centered-mobile is-size-7">Politica y privacidad</div>
+          <div className="column is-2-talbet is-half-mobile has-text-centered-mobile is-size-7">Terminos y condiciones</div>
+        </div>
       </div>
-    </div>
-
     </div>
     </>
   )

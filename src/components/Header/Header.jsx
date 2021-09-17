@@ -3,6 +3,7 @@ import './Header.css'
 
 import jugueton from '../../images/jugueton.png'
 import juguetonBebe from '../../images/bebe-jugueton.png'
+import logoCemaco from '../../images/logo.jpg'
 
 export const Header = () => {
   return (
@@ -14,7 +15,11 @@ export const Header = () => {
               <img src={jugueton} alt="" />
             </figure>
           </div>
-          <div className="column logo-cemaco has-text-centered py-0 is-one-third-mobile is-3-tablet is-2-desktop is-1-widescreen cemaco-header">Cemaco</div>
+          <div className="column logo-cemaco has-text-centered py-0 is-one-third-mobile is-3-tablet is-2-desktop is-1-widescreen cemaco-header">
+            <figure>
+              <img src={logoCemaco} alt="" />
+            </figure>
+          </div>
           <div className="column logo has-text-centered py-0 is-one-third-mobile is-3-tablet is-2-desktop is-1-widescreen has-background-white">
             <figure className="">
               <img src={juguetonBebe} alt="" />
@@ -25,7 +30,11 @@ export const Header = () => {
       <div className="cemaco-header">
         <div className="container px-3">
           <div className="columns is-multiline is-mobile is-vcentered my-0">
-            <div className="column is-one-quarter-tablet my-1 has-text-white has-text-centered">Logo</div>
+            <div className="column is-one-quarter-tablet my-1 has-text-white has-text-centered">
+              <figure>
+                <img src={logoCemaco} alt="" />
+              </figure>   
+            </div>
             <div className="column is-tow-thrids-tablet is-full-mobile order-end my-1">
               <input className="input is-rounded" type="text" placeholder="Buscar"/>
             </div>
